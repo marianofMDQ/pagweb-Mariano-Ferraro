@@ -121,6 +121,15 @@ form{
 
 .contacto{
     
+    .contac_carta{
+        width: 50%;
+        float: left;
+    }
+    .mapa{
+        width: 50%;
+        float: left;
+        margin-top: 100px;
+    }
     p{
     
     font-size: $f-sizetreinta;
@@ -128,7 +137,9 @@ form{
     i{
         font-size:$f-sizecincuenta;
     }
-    
+    h2{
+        align-items:center ;
+    }
 }
 
 main{
@@ -140,6 +151,7 @@ main{
 footer{
     display: block;
     width: 100%;
+    margin-top: 400px;
     color:$transp;
     text-align: center;
     font-size: $f-sizeveinte;

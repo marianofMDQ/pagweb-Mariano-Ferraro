@@ -102,11 +102,23 @@ form h2 {
     margin-top: 600px;
   }
 }
+.contacto .contac_carta {
+  width: 50%;
+  float: left;
+}
+.contacto .mapa {
+  width: 50%;
+  float: left;
+  margin-top: 100px;
+}
 .contacto p {
   font-size: 30px;
 }
 .contacto i {
   font-size: 50px;
+}
+.contacto h2 {
+  align-items: center;
 }
 
 main {
@@ -117,6 +129,7 @@ main {
 footer {
   display: block;
   width: 100%;
+  margin-top: 400px;
   color: transparent;
   text-align: center;
   font-size: 20px;
