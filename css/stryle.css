@@ -28,13 +28,10 @@
   padding: 30px;
 }
 
-.container-fluid {
-  height: 90%;
-  width: 100%;
-}
-
-.carousel-inner img {
-  height: 575px;
+.carousel-inner {
+  height: 80vh;
+  width: auto;
+  background: no-repeat center center scroll;
   object-fit: cover;
 }
 
@@ -113,30 +110,15 @@ form h2 {
   .Galeria_carta {
     grid-template-columns: repeat(3, 1fr);
   }
-  form h2 {
-    margin-top: 100px;
-  }
-  .pie-testi {
-    margin-top: 50px;
-  }
 }
 @media (width > 500px) and (width < 693px) {
   form h2 {
     margin-top: 300px;
   }
-  .pie-testi {
-    margin-top: 50px;
-  }
 }
 @media (width > 800px) {
   form h2 {
-    margin-top: 500px;
-  }
-  .titulo-reserva h2 {
-    margin-top: 50px;
-  }
-  .pie-testi {
-    margin-top: 50px;
+    margin-top: 600px;
   }
 }
 .contacto .contac_carta {
@@ -163,11 +145,6 @@ main {
   background-color: transparent;
 }
 
-.jumbotron {
-  margin-top: 400px;
-  background-color: rgb(240, 240, 240);
-}
-
 footer {
   background-color: #d5d9dd !important;
   display: block;
@@ -175,7 +152,7 @@ footer {
   margin-top: 500px;
   text-align: center;
   font-size: 20px;
-  padding: 40px;
+  padding: 20px;
 }
 footer p {
   color: black;
@@ -188,4 +165,4 @@ footer i {
   letter-spacing: 20px;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=stryle.css.map */

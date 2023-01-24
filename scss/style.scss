@@ -15,11 +15,15 @@
 }
 
 .header {
+    
+    .bg-light {
+        background-color: #e0e2e4!important;
+    }
     .navbar-brand{
         
     height: 80px;
     width: 100%;
-    background-color: $transp;
+    
     display: flex;
     justify-content: space-between;
     font-size: 25px;
@@ -31,15 +35,15 @@
 }
 
 
-.carousel-inner{
-    height: 65vh;
-    min-height: 300px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+.container-fluid {
+    height: 90%;
+    width: 100%;
 }
+    
+    .carousel-inner img {
+    height: 575px;
+    object-fit: cover;
+    }
 
 .seccion_texto{
     text-align: left;
@@ -52,14 +56,40 @@ h2{
     text-align: center;
 }
 
+.testimonios_carta{
+
+    .card{
+        height: 200px;
+    }
+    .card-header{
+        background-color:#e6e7e9!important;
+    }
+
+    .card-body{
+        height: auto;
+        width: auto;
+    }
+    .blokoute-footer{
+        background-color:#e6e7e9!important;
+    }
+    .cita_famosa{
+        height: 300px;
+        background-color:transparent;
+        align-items: center;
+        
+    }
+}
+
 .secciones{ 
     .card{
+    
         height: 350px;
         width: 350px;
         border: 2px;
     }
 }
     .card-img-top{
+        object-fit: cover;
         width:auto ;
         height:250px;
     }
@@ -101,34 +131,50 @@ form{
 @media (width<500px){
     .Galeria_carta{
         grid-template-columns: repeat(3, 1fr);
-    
+    }
+    form h2{
+        margin-top:100px ;
+        }
+    .pie-testi{
+        margin-top: 50px;
     }
 }
 
 @media (width>500px) and (width<693px){
     form h2{
     margin-top:300px ;
-    
+    }
+    .pie-testi{
+        margin-top: 50px;
     }
 }
 
 @media (width>800px){
     form h2{
-    margin-top:600px ;
-    
+        margin-top: 500px;
+        }
+        .titulo-reserva h2{
+            margin-top:50px ;
+            }
+
+    .pie-testi{
+        margin-top: 50px;
     }
 }
+
+
 
 .contacto{
     
     .contac_carta{
+
         width: 50%;
         float: left;
     }
     .mapa{
         width: 50%;
         float: left;
-        margin-top: 100px;
+        margin-top: 40px;
     }
     p{
     
@@ -147,15 +193,21 @@ main{
     background-color: $transp;
 }
 
+.jumbotron{
+    margin-top: 400px;
+    background-color: rgb(240, 240, 240);
+}
 
 footer{
+        
+    background-color: #d5d9dd!important;
     display: block;
     width: 100%;
-    margin-top: 400px;
-    color:$transp;
+    margin-top: 500px;
+    
     text-align: center;
     font-size: $f-sizeveinte;
-    padding: 20px;
+    padding: 40px;
     p{
         color: $color-negro;
         color: $color-negro;
@@ -167,5 +219,6 @@ footer{
         letter-spacing: 20px;
         
     }
+    
 }
 
