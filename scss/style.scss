@@ -138,14 +138,26 @@ form{
     .pie-testi{
         margin-top: 50px;
     }
+    .pie-testi-galeria{
+        margin-top: 100px;
+    }
+    .jumbotron{
+        margin-top: 500px;
+    }
 }
 
 @media (width>500px) and (width<693px){
     form h2{
-    margin-top:300px ;
+    margin-top:200px ;
     }
     .pie-testi{
         margin-top: 50px;
+    }
+    .pie-testi-galeria{
+        margin-top: 100px;
+    }
+    .jumbotron{
+        margin-top: 200px;
     }
 }
 
@@ -155,11 +167,20 @@ form{
         }
         .titulo-reserva h2{
             margin-top:50px ;
-            }
-
+    }
     .pie-testi{
         margin-top: 50px;
     }
+    .pie-testi-galeria{
+        margin-top: 500px;
+    }
+    .jumbotron{
+        margin-top: 500px;
+    }
+    form h3{
+        margin-top: 50px;
+    }
+    
 }
 
 
@@ -170,6 +191,7 @@ form{
 
         width: 50%;
         float: left;
+        
     }
     .mapa{
         width: 50%;
@@ -178,15 +200,17 @@ form{
     }
     p{
     
-    font-size: $f-sizetreinta;
+    font-size: 30px;
     }
     i{
-        font-size:$f-sizecincuenta;
+        font-size:25px;
     }
     h2{
         align-items:center ;
     }
+    
 }
+
 
 main{
     min-height:100vh;
@@ -194,6 +218,7 @@ main{
 }
 
 .jumbotron{
+    
     margin-top: 400px;
     background-color: rgb(240, 240, 240);
 }
@@ -206,7 +231,7 @@ footer{
     margin-top: 500px;
     
     text-align: center;
-    font-size: $f-sizeveinte;
+    font-size: $f-sizetreinta;
     padding: 40px;
     p{
         color: $color-negro;
@@ -214,11 +239,11 @@ footer{
         text-align: center;
     }
     i{
-        font-size: 50px;
+        font-size: 60px;
         color:$color-negro;
         letter-spacing: 20px;
         
-    }
-    
+    }  
+
 }
 
